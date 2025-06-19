@@ -8,7 +8,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('froala_editor/',include('froala_editor.urls')),
     path('api/account/', include('account.urls')),
-    path('api/', include('posts.urls')), # Add this line to include blog post URLs
+    path('api/', include('posts.urls')), 
 ]
 
 if settings.DEBUG:
